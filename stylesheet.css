@@ -1,0 +1,138 @@
+body {
+    background-color: #000000;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://lumiere-a.akamaihd.net/v1/images/darth-vader-main_4560aff7.jpeg");
+
+}
+
+#title {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 2px;
+    padding: 0;
+    font-family: "Yu Gothic Light";
+    color: white;
+    text-align: center;
+    top:25px;
+    left: 250px;
+    position: absolute;
+}
+
+#name {
+    font-size: 10px;
+    color: white;
+    position: relative;
+    top: 10px;
+}
+
+#text {
+    font-size: 12px;
+    font-weight: normal;
+    margin: 2px;
+    padding: 0;
+    font-family: "Yu Gothic Light";
+    color: black;
+    text-align: center;
+    position: relative;
+    top: 150px
+
+}
+
+
+#container {
+    position: relative;
+
+    width: 100%;
+    height: 100%;
+    position: center;
+}
+
+#login {
+    padding: 8px;
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    top: 150px;
+    left: 5px;
+
+}
+form {
+    display: inline-block;
+}
+.user_input
+{
+    border: crimson 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 2px;
+}
+
+#copyright_text
+{
+    color: white;
+    font-size: 10px;
+    opacity: 45%;
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+}
+
+
+.right_text {
+    position: relative;
+    right: 2px;
+    font-size: 20px;
+    border:  antiquewhite 1px solid;
+    border-radius: 10%;
+    padding: 10px;
+    top: 1px;
+    flex: 1;
+    color: blue;
+}
+
+
+
+#right_txt
+{
+    position: relative;
+
+    right: 2px;
+    font-family: "Roboto Light";
+    font-size: 20px;
+    padding: 10px;
+    color: blue;
+    flex:1;
+    flex-grow: inherit;
+    flex-shrink: inherit;
+}
+
+#news_section
+{
+    border: 5px solid rgba(100,3,0,0.1);
+    text-shadow: blue 1px 1px 1px;
+
+    border-bottom-left-radius: 10%;
+    border-top-left-radius: 10%;
+
+    height: 500px;
+    padding: 10px;
+    position: absolute;
+    top: 100px;
+    right: 10px;
+    width: 250px;
+    margin: 10px;
+
+}
+
+.news_p
+{
+    color: red;
+    font-size: 20px;
+    position: relative;
+    left: 50px;
+    flex: auto;
+}
