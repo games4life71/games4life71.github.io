@@ -1,0 +1,94 @@
+body {
+    background-color: #000000;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin: 0;
+    background-image: url("https://lumiere-a.akamaihd.net/v1/images/darth-vader-main_4560aff7.jpeg");
+
+}
+
+#title {
+    font-size: 25px;
+    font-weight: bold;
+
+    font-family: "Yu Gothic Light";
+    color: white;
+    text-align: center;
+    display: table;
+    margin: 0 auto;
+    padding-top: 10px;
+
+}
+
+#name {
+    font-size: 10px;
+    color: white;
+    position: relative;
+    top: 10px;
+}
+
+#text {
+    font-size: 12px;
+    font-weight: normal;
+    margin: 2px;
+    padding: 0;
+    font-family: "Yu Gothic Light";
+    color: black;
+    text-align: center;
+    position: relative;
+    top: 150px
+
+
+}
+
+
+
+
+.button
+{
+    position: relative;
+    border: crimson 1px solid;
+    border-radius: 8px;
+    width: 100px;
+    height: 25px;
+    left: 40px;
+
+    margin-top: 5px;
+}
+
+.login {
+
+
+
+    width: 100px;
+    display: table;
+    margin: 0 auto;
+    margin-top: 20%;
+}
+
+form {
+    display: inline-block;
+}
+
+.user_input
+{
+    border: crimson 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 2px;
+    width: 250px;
+}
+
+
+#copyright_text
+{
+    color: white;
+    font-size: 10px;
+    opacity: 45%;
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+}
+
+
